@@ -9,4 +9,5 @@ RFID/NFC Module: PN532
 IC MAX485
 
 **Author** Minh Tuan
+
 **Date** October 12, 2024
