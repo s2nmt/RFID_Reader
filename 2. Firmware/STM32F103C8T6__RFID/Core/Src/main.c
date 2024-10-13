@@ -703,10 +703,10 @@ void SmartConfigWifi(void)
 }
 void BW16_MQTT_Broker_Init()
 {
-	strcpy((char*)broker.host, "103.151.238.68");
-	strcpy((char*)broker.port, "1887");
-	strcpy((char*)broker.user, "guest");
-	strcpy((char*)broker.password, "123456a@");
+	strcpy((char*)broker.host, "");
+	strcpy((char*)broker.port, "");
+	strcpy((char*)broker.user, "");
+	strcpy((char*)broker.password, "");
 	strcpy((char*)broker.id, DeviceID);
 	strcpy((char*)broker.topic.sub, "device/NFC");
 	strcpy((char*)broker.topic.pub, "server/NFC");
